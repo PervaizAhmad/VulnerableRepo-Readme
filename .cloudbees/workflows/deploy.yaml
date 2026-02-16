@@ -11,11 +11,11 @@ jobs:
     steps:
       - uses: cloudbees-io/register-deployed-artifact@v2
         with:
-          labels: demo-go-service
+          labels: VulnerableRepo-PreProd
           artifact-id: 7a223ac2-5e63-4dd9-af3b-c31bcdd257e6
           target-environment: QA
       - uses: cloudbees-io/register-deployed-artifact@v2
         with:
-          labels: demo-go-service
+          labels: VulnerableRepo-PreProd
           artifact-id: 7a223ac2-5e63-4dd9-af3b-c31bcdd257e6
           target-environment: QA-V2
