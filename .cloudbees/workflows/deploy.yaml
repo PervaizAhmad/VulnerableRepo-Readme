@@ -12,10 +12,10 @@ jobs:
       - uses: cloudbees-io/register-deployed-artifact@v2
         with:
           labels: VulnerableRepo-QA
-          artifact-id: d02eeb58-4c4a-4855-8a68-03c673bda888
+          artifact-id: fd1210a0-f36f-4622-9a59-4d090632cd77
           target-environment: QA
       - uses: cloudbees-io/register-deployed-artifact@v2
         with:
           labels: VulnerableRepo-QA
-          artifact-id: 7a223ac2-5e63-4dd9-af3b-c31bcdd257e6
+          artifact-id: fd1210a0-f36f-4622-9a59-4d090632cd77
           target-environment: QA-V2
