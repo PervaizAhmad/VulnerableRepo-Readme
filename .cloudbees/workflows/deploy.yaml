@@ -12,10 +12,10 @@ jobs:
       - uses: cloudbees-io/register-deployed-artifact@v2
         with:
           labels: demo-go-service
-          artifact-id: 90390d55-489e-4761-bcaa-e5b4f8191ba5
-          target-environment: QA1
+          artifact-id: 7a223ac2-5e63-4dd9-af3b-c31bcdd257e6
+          target-environment: QA
       - uses: cloudbees-io/register-deployed-artifact@v2
         with:
           labels: demo-go-service
-          artifact-id: 90390d55-489e-4761-bcaa-e5b4f8191ba5
-          target-environment: QA2
+          artifact-id: 7a223ac2-5e63-4dd9-af3b-c31bcdd257e6
+          target-environment: QA-V2
